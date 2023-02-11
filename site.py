@@ -11,9 +11,9 @@ a = ary.array('i',[5])
 
 
 
-data={"gene":["gene1","gene2","gene3"],"mutationrate":[0.009,0.003,0.006]
-data = pd.DataFrame(data)
-data=data.set_index("name")
+chart_data={"gene":["gene1","gene2","gene3"],"mutationrate":[0.009,0.003,0.006]
+data = pd.DataFrame(chart_data)
+data=chart_data.set_index("name")
 
 
 
