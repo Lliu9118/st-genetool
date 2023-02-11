@@ -47,4 +47,6 @@ with st.container():
 
     if option == 'BRCA' and option2 == 'Asian' and color == '1' and option3 == 'Most' :
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
-
+    
+    if option == 'BRCA' and option2 == 'Asian' and color == '50' and option3 == 'Most' :
+        (st.write('Link: Asian50.org'))
