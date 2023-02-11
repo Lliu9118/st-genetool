@@ -12,8 +12,8 @@ a = ary.array('i',[5])
 
 
 chart_data={"gene":["gene1","gene2","gene3"],"mutationrate":[0.009,0.003,0.006]
-data = pd.DataFrame(chart_data)
-data=chart_data.set_index("name")
+chart_data = pd.DataFrame(chart_data)
+chart_data=chart_data.set_index("name")
 
 
 
@@ -61,7 +61,7 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '49':
-        st.bar_chart(data)
+        st.bar_chart(chart_data)
         
 
 
