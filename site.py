@@ -23,8 +23,7 @@ with st.container():
         st.header("Our Goal")
         st.write("##")
         st.write("In past research on the correlation between race and the frequency of cancer within those races, researchers lacked an efficient and simple way to gain access to the most prevalent cancerous genes by race. Our interactive tool strives to assist the further research on the topic of cancer and race. With a few clicks, researchers of the future will be able to easily gain access to the most prevalent genes within affected patients.")
-    with right_column:
-        st_lottie(lottie_coding, height = 300, key="coding")
+  
     option = st.selectbox(
         'Which cancer type would ypu like to view?',
         ('BRCA', 'LUAD',))
