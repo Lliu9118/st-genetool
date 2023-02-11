@@ -50,3 +50,6 @@ with st.container():
     
     if option == 'BRCA' and option2 == 'Asian' and color == '50' and option3 == 'Most' :
         (st.write('Link: Asian50.org'))
+ 
+    if option == 'BRCA' and option2 == 'Asian' and color == '49' and option3 == 'Most':
+        (st.write(a[0]))
