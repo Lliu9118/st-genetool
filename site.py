@@ -1,10 +1,10 @@
 import requests
 import streamlit as st
-
+import array as ary
 st.set_page_config(page_title="My Webpage", page_icon=":skull:", layout="wide")
 
 
-
+a = ary.array('i',['Asian'])
 
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
