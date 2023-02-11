@@ -16,8 +16,6 @@ chart_data = pd.DataFrame(
     np.random.randn(20, 3),
     columns=["a", "b", "c"])
 
-st.bar_chart(chart_data)
-
 
 
 with st.container():
@@ -63,4 +61,7 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '49':
-        (st.write(a[0]))
+        st.bar_chart(chart_data)
+        
+
+
