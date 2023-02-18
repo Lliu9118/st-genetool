@@ -11,16 +11,12 @@ st.set_page_config(page_title="My Webpage", page_icon=":skull:", layout="wide")
 
 a = ary.array('i',[5])
 
-
-
-source = pd.DataFrame({
+data = {
     'Gene': ['gene1','gene2','gene3'],
     'Mutationrate': [0.009,0.003,0.006]
-})
-bar_chart=alt.Chart(source).mark_bar().encode(
-    x='Gene',
-    y='Mutationrate',
-)
+}
+data = pd.DataFrame(data)
+data=data.set_input('Gene')
 
 
 
@@ -68,6 +64,6 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '8':
-        st.bar_chart(source)
+        st.bar_chart(data)
 
 
