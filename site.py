@@ -68,6 +68,6 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '8':
-        st.bar_chart(data)
+        st.bar_chart(source)
 
 
