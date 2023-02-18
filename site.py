@@ -20,7 +20,6 @@ bar_chart=alt.Chart(source).mark_bar().encode(
     X="Gene",
     Y="Mutationrate",
 )
-st.altair(bar_chart, use_container_width=True)
 
 
 
