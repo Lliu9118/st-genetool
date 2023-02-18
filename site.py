@@ -13,7 +13,14 @@ a = ary.array('i',[5])
 
 
 
-
+source = pd.DataFrame({
+    'Gene': ['gene1','gene2','gene3'],
+    'Mutationrate': [0.009,0.003,0.006]
+})
+bar_chart=alt.Chart(source).mark_bar().encode(
+    x='Gene',
+    y='Mutationrate',
+)
 
 
 
@@ -61,6 +68,6 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '8':
-        st.image("6genes.jpg")
+        st.bar_chart(source)
 
 
