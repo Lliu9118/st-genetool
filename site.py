@@ -16,8 +16,22 @@ a = ary.array('i',[5])
 
 
 source = pd.DataFrame({
-    'Gene': ['gene1','gene2','gene3'],
-    'Mutationrate': [0.009,0.003,0.006]
+    'Gene': ["AC010203.1",
+"AC005631.1",
+"MIR1302-3",
+"MIR1275",
+"MIR1275",
+"MIR487B",
+"MIR30D",
+"MIR7-2",],
+    'Mutationrate': [0.27,
+0.0821,
+0.023,
+0.007,
+0.007,
+0.0042,
+0.00341,
+0.0002,]
 })
 bar_chart=alt.Chart(source).mark_bar().encode(
     x='Gene',
