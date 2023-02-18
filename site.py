@@ -13,14 +13,7 @@ a = ary.array('i',[5])
 
 
 
-source = pd.DataFrame({
-    'Gene': ['gene1','gene2','gene3'],
-    'Mutationrate': [0.009,0.003,0.006]
-})
-bar_chart=alt.Chart(source).mark_bar().encode(
-    x='Gene',
-    y='Mutationrate',
-)
+
 
 
 
