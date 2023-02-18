@@ -11,10 +11,7 @@ st.set_page_config(page_title="My Webpage", page_icon=":skull:", layout="wide")
 
 a = ary.array('i',[5])
 
-data = {
-    'Gene': ['gene1','gene2','gene3'],
-    'Mutationrate': [0.009,0.003,0.006]
-}
+data = {'Gene': ['gene1','gene2','gene3'], 'Mutationrate': [0.009,0.003,0.006]}
 data = pd.DataFrame(data)
 
 
