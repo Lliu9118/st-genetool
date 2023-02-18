@@ -2,6 +2,7 @@ import requests
 import streamlit as st
 import array as ary
 import pandas as pd
+import altair as alt
 
 
 
@@ -11,8 +12,15 @@ st.set_page_config(page_title="My Webpage", page_icon=":skull:", layout="wide")
 
 a = ary.array('i',[5])
 
-data = {'Gene': ['gene1','gene2','gene3'], 'Mutationrate': [0.009,0.003,0.006], x='Gene', y='Mutationrate'}
-data = pd.DataFrame(data)
+
+source = pd.DataFrame({'Gene': ['gene1','gene2','gene3'], 
+                       'Mutationrate': [0.009,0.003,0.006]
+                      })
+bar_chart=alt.Chart(source).mark_bar().encode(
+    X="Gene",
+    Y="Mutationrate",
+)
+st.altair(bar_chart, use_container_width=True)
 
 
 
