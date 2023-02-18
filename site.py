@@ -2,7 +2,10 @@ import requests
 import streamlit as st
 import array as ary
 import pandas as pd
-import altair as alt
+from PIL import Image
+
+image = Image.open('6genes.png')
+
 
 
 st.set_page_config(page_title="My Webpage", page_icon=":skull:", layout="wide")
@@ -66,8 +69,7 @@ with st.container():
     if option == 'BRCA' and option2 == 'Asian' and color == '50':
         (st.write('Link: Asian50.org'))
  
-    if option == 'BRCA' and option2 == 'Asian' and color == '49':
-        st.altair_chart(bar_chart,use_container_width=True)
-        
+    if option == 'BRCA' and option2 == 'Asian' and color == '8':
+        st.image(image)
 
 
