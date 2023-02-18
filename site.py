@@ -16,16 +16,16 @@ a = ary.array('i',[5])
 
 
 source = pd.DataFrame({
-    'Gene': ["AC010203.1",
-"AC005631.1",
+    'Gene': ["AC005631.1",
+             "AC010203.1",
 "MIR1302-3",
 "MIR1275",
 "MIR1275",
 "MIR487B",
 "MIR30D",
 "MIR7-2",],
-    'Mutationrate': [0.27,
-0.0821,
+    'Mutationrate': [0.0821,
+                     0.27,
 0.023,
 0.007,
 0.007,
