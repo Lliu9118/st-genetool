@@ -10,9 +10,11 @@ a = ary.array('i',[5])
 
 
 
-chart_data={"gene":["gene1","gene2","gene3"],"mutationrate":[0.009,0.003,0.006]
-chart_data = pd.DataFrame(chart_data)
-chart_data=chart_data.set_index("name")
+
+
+
+
+
 source = pd.DataFrame({
     'Gene': ['gene1','gene2','gene3'],
     'Mutationrate': [0.009,0.003,0.006]
