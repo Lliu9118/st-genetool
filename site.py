@@ -4,7 +4,7 @@ import array as ary
 import pandas as pd
 from PIL import Image
 
-image = Image.open('6genes.png')
+img = Image.open('6genes.jpg')
 
 
 
@@ -70,6 +70,6 @@ with st.container():
         (st.write('Link: Asian50.org'))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '8':
-        st.image(image)
+        st.image(img)
 
 
