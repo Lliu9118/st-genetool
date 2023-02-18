@@ -77,5 +77,5 @@ with st.container():
         (st.write('Link: Asian50.org'))
 
     if option == 'BRCA' and option2 == 'Asian' and color == '49':
-        st.bar_chart(source)
+        
         st.altair_chart(bar_chart,use_container_width=True)
