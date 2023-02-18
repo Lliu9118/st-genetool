@@ -16,7 +16,7 @@ data = {
     'Mutationrate': [0.009,0.003,0.006]
 }
 data = pd.DataFrame(data)
-data=data.set_input('Gene')
+
 
 
 
