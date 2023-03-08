@@ -165,8 +165,8 @@ with st.container():
 
     if option == 'BRCA' and option2 == 'Asian' and color == '49':
         
-    st.write(data)
-    st.write(alt.Chart(data).mark_bar().encode(
-    x=alt.X('Gene', sort=None),
-    y='pvalue',
+        st.write(data)
+        st.write(alt.Chart(data).mark_bar().encode(
+        x=alt.X('Gene', sort=None),
+        y='pvalue',
 ))
