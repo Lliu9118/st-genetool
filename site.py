@@ -319,7 +319,6 @@ with st.container():
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
     
      if option == 'BRCA' and option2 == 'Asian' and color == '20':
-        
         st.write(data4)
         st.write(alt.Chart(data4).mark_bar().encode(
         x=alt.X('Gene', sort=None),
@@ -327,7 +326,6 @@ with st.container():
 ))
     
      if option == 'BRCA' and option2 == 'Asian' and color == '21':
-        
         st.write(data3)
         st.write(alt.Chart(data3).mark_bar().encode(
         x=alt.X('Gene', sort=None),
@@ -335,7 +333,6 @@ with st.container():
 ))
     
     if option == 'BRCA' and option2 == 'Asian' and color == '22':
-        
         st.write(data2)
         st.write(alt.Chart(data2).mark_bar().encode(
         x=alt.X('Gene', sort=None),
@@ -343,7 +340,6 @@ with st.container():
 ))
 
     if option == 'BRCA' and option2 == 'Asian' and color == '23':
-        
         st.write(data)
         st.write(alt.Chart(data).mark_bar().encode(
         x=alt.X('Gene', sort=None),
