@@ -775,11 +775,7 @@ with st.container():
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
-        
-        
-        
-        
-     if option == 'BRCA' and option2 == 'White' and color == '50':
+    if option == 'BRCA' and option2 == 'White' and color == '25':
         st.write(datawhite)
         st.write(alt.Chart(datawhite).mark_bar().encode(
             x=alt.X('Gene', sort=None),
