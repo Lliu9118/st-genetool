@@ -11,8 +11,8 @@ a = ary.array('i',[5])
 
 
 
-
-Gene1 = ["AC011467.1",
+data = pd.DataFrame({
+    'Gene': ["AC011467.1",
              "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -37,12 +37,8 @@ Gene1 = ["AC011467.1",
 "MIR30D",
 "AC010203.1",
 "MIR487B",
-"MIR7-2"]
-  
-Genedata1 = Gene1[0:25]
-
-data = pd.DataFrame({
-    'Gene': [Genedata1],
+"MIR7-2",]
+  ,
     'pvalue': [272727273,
 250000000,
 181818182,
