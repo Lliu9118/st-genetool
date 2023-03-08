@@ -782,4 +782,5 @@ with st.container():
             y='pvalue',
 
         )
-        st.write(datawhite))
+)
+        st.write(datawhite)
