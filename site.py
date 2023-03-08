@@ -181,7 +181,109 @@ data2 = pd.DataFrame({
 ],
 })
 
+data3 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+"MIR329-1",
+"MIR1302-3",
+"AC005631.1",
+"MIR30D",
+"AC010203.1",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+1,
+                    0.5,
+0.5,
+0.5,
+0.5,
+],
+})
 
+data4 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+"MIR329-1",
+"MIR1302-3",
+"AC005631.1",
+"MIR30D",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+1,
+                    0.5,
+0.5,
+0.5,
+],
+})
 
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
@@ -215,6 +317,22 @@ with st.container():
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
+    
+     if option == 'BRCA' and option2 == 'Asian' and color == '20':
+        
+        st.write(data2)
+        st.write(alt.Chart(data2).mark_bar().encode(
+        x=alt.X('Gene', sort=None),
+        y='pvalue',
+))
+    
+     if option == 'BRCA' and option2 == 'Asian' and color == '21':
+        
+        st.write(data2)
+        st.write(alt.Chart(data2).mark_bar().encode(
+        x=alt.X('Gene', sort=None),
+        y='pvalue',
+))
     
     if option == 'BRCA' and option2 == 'Asian' and color == '22':
         
