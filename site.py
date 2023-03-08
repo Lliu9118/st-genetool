@@ -561,14 +561,14 @@ with st.container():
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+    if option == 'BRCA' and option2 == 'Asian' and color == '15':
         st.write(data11)
         st.write(alt.Chart(data11).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+    if option == 'BRCA' and option2 == 'Asian' and color == '16':
         st.write(data10)
         st.write(alt.Chart(data10).mark_bar().encode(
             x=alt.X('Gene', sort=None),
