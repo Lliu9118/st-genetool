@@ -455,6 +455,82 @@ data9 = pd.DataFrame({
 ],
 })
 
+data10 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+],
+})
+
+
+data11 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+],
+})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -487,6 +563,21 @@ with st.container():
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
+    
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+        st.write(data11)
+        st.write(alt.Chart(data11).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+    
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+        st.write(data10)
+        st.write(alt.Chart(data10).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+
     
     if option == 'BRCA' and option2 == 'Asian' and color == '17':
         st.write(data9)
