@@ -39,7 +39,7 @@ Gene1 = ["AC011467.1",
 "MIR487B",
 "MIR7-2"]
   
-Genedata1 = Gene1[0:24]
+Genedata1 = Gene1[0:25]
 
 data = pd.DataFrame({
     'Gene': [Genedata1],
