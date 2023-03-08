@@ -262,14 +262,20 @@ with st.container():
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
+    if option == 'BRCA' and option2 == 'Asian' and color == '20':
+        st.write(data4)
+        st.write(alt.Chart(data4).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
     
 
-     if option == 'BRCA' and option2 == 'Asian' and color == '21':
-            st.write(data3)
-            st.write(alt.Chart(data3).mark_bar().encode(
-                x=alt.X('Gene', sort=None),
-                y='pvalue',
-            ))
+    if option == 'BRCA' and option2 == 'Asian' and color == '21':
+        st.write(data3)
+        st.write(alt.Chart(data3).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
     
     if option == 'BRCA' and option2 == 'Asian' and color == '22':
         st.write(data2)
