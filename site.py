@@ -38,7 +38,7 @@ source = pd.DataFrame({
 "MIR30D"
 "AC010203.1"
 "MIR487B"
-"MIR7-2"],
+"MIR7-2",],
     'Mutationrate': [272727273,
 250000000,
 181818182,
