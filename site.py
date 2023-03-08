@@ -155,15 +155,13 @@ with st.container():
     st.write('You selected:', option2)
     color = st.select_slider(
         'Select the amount of genes you would like to view.',
-        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50'])
+        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23'])
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '50':
-        (st.write('Link: Asian50.org'))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '49':
+    if option == 'BRCA' and option2 == 'Asian' and color == '23':
         
         st.write(data)
         st.write(alt.Chart(data).mark_bar().encode(
