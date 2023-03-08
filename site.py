@@ -230,6 +230,231 @@ data4 = pd.DataFrame({
 ],
 })
 
+data5 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+"MIR329-1",
+"MIR1302-3",
+"AC005631.1",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+1,
+                    0.5,
+0.5,
+],
+})
+
+data6 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+"MIR329-1",
+"MIR1302-3",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+1,
+                    0.5,
+],
+})
+
+data7 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+"MIR329-1",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+1,
+],
+})
+
+data8 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+"MIR1275",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+1,
+],
+})
+
+data9 = pd.DataFrame({
+    'Gene': ["AC011467.1",
+             "MIR526B",
+"AC090825.1",
+"MIR519C",
+"AC105339.2",
+"MIR515-1",
+"MIR520A",
+"AC091565.1",
+"MIR1323",
+"AC100757.1",
+"MIR512-1",
+"MIR515-2",
+"AC010203.1",
+"MIR9-3",
+"AC005631.1",
+"AC126323.1",
+"MIR520E",
+"MIR7-2",
+],
+    'pvalue': [272727273,
+250000000,
+181818182,
+159090909,
+113636364,
+113636364,
+113636364,
+90909091,
+90909091,
+68181818,
+68181818,
+68181818,
+45454545,
+45454545,
+22727273,
+22727273,
+22727273,
+3058104,
+],
+})
+
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -258,33 +483,68 @@ with st.container():
     st.write('You selected:', option2)
     color = st.select_slider(
         'Select the amount of genes you would like to view.',
-        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23'])
+        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25'])
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
-    if option == 'BRCA' and option2 == 'Asian' and color == '20':
-        st.write(data4)
-        st.write(alt.Chart(data4).mark_bar().encode(
+    
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+        st.write(data9)
+        st.write(alt.Chart(data9).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-
+    if option == 'BRCA' and option2 == 'Asian' and color == '20':
+        st.write(data8)
+        st.write(alt.Chart(data8).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+        
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+        st.write(data7)
+        st.write(alt.Chart(data7).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+        
     if option == 'BRCA' and option2 == 'Asian' and color == '21':
+        st.write(data6)
+        st.write(alt.Chart(data6).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+ 
+    if option == 'BRCA' and option2 == 'Asian' and color == '21':
+        st.write(data8)
+        st.write(alt.Chart(data8).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+    
+    if option == 'BRCA' and option2 == 'Asian' and color == '22':
+        st.write(data5)
+        st.write(alt.Chart(data5).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+
+    if option == 'BRCA' and option2 == 'Asian' and color == '23':
         st.write(data3)
         st.write(alt.Chart(data3).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '22':
+    if option == 'BRCA' and option2 == 'Asian' and color == '24':
         st.write(data2)
         st.write(alt.Chart(data2).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '23':
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
         st.write(data)
         st.write(alt.Chart(data).mark_bar().encode(
             x=alt.X('Gene', sort=None),
