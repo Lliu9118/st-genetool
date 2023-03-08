@@ -488,28 +488,28 @@ with st.container():
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '19':
+    if option == 'BRCA' and option2 == 'Asian' and color == '17':
         st.write(data9)
         st.write(alt.Chart(data9).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '20':
+    if option == 'BRCA' and option2 == 'Asian' and color == '18':
         st.write(data8)
         st.write(alt.Chart(data8).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+    if option == 'BRCA' and option2 == 'Asian' and color == '19':
         st.write(data7)
         st.write(alt.Chart(data7).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '21':
+    if option == 'BRCA' and option2 == 'Asian' and color == '20':
         st.write(data6)
         st.write(alt.Chart(data6).mark_bar().encode(
             x=alt.X('Gene', sort=None),
@@ -517,15 +517,15 @@ with st.container():
         ))
  
     if option == 'BRCA' and option2 == 'Asian' and color == '21':
-        st.write(data8)
-        st.write(alt.Chart(data8).mark_bar().encode(
+        st.write(data5)
+        st.write(alt.Chart(data5).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
     if option == 'BRCA' and option2 == 'Asian' and color == '22':
-        st.write(data5)
-        st.write(alt.Chart(data5).mark_bar().encode(
+        st.write(data4)
+        st.write(alt.Chart(data4).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
