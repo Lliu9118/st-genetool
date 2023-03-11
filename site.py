@@ -982,112 +982,126 @@ with st.container():
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
 
+    if option == 'BRCA' and option2 == 'Asian' and color == '0':
+        st.write(data27)
+        st.write(alt.Chart(data27).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+        
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
+        st.write(data26)
+        st.write(alt.Chart(data26).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
+        ))
+        
+    if option == 'BRCA' and option2 == 'Asian' and color == '2':
         st.write(data25)
         st.write(alt.Chart(data25).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '2':
+    if option == 'BRCA' and option2 == 'Asian' and color == '3':
         st.write(data24)
         st.write(alt.Chart(data24).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '3':
+    if option == 'BRCA' and option2 == 'Asian' and color == '4':
         st.write(data23)
         st.write(alt.Chart(data23).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '4':
+    if option == 'BRCA' and option2 == 'Asian' and color == '5':
         st.write(data22)
         st.write(alt.Chart(data22).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '5':
+    if option == 'BRCA' and option2 == 'Asian' and color == '6':
         st.write(data21)
         st.write(alt.Chart(data21).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '6':
+    if option == 'BRCA' and option2 == 'Asian' and color == '7':
         st.write(data20)
         st.write(alt.Chart(data20).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '7':
+    if option == 'BRCA' and option2 == 'Asian' and color == '8':
         st.write(data19)
         st.write(alt.Chart(data19).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '8':
+    if option == 'BRCA' and option2 == 'Asian' and color == '9':
         st.write(data18)
         st.write(alt.Chart(data18).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '9':
+    if option == 'BRCA' and option2 == 'Asian' and color == '10':
         st.write(data17)
         st.write(alt.Chart(data17).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '10':
+    if option == 'BRCA' and option2 == 'Asian' and color == '11':
         st.write(data16)
         st.write(alt.Chart(data16).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '11':
+    if option == 'BRCA' and option2 == 'Asian' and color == '12':
         st.write(data15)
         st.write(alt.Chart(data15).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '12':
+    if option == 'BRCA' and option2 == 'Asian' and color == '13':
         st.write(data14)
         st.write(alt.Chart(data14).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '13':
+    if option == 'BRCA' and option2 == 'Asian' and color == '14':
         st.write(data13)
         st.write(alt.Chart(data13).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '14':
+    if option == 'BRCA' and option2 == 'Asian' and color == '15':
         st.write(data12)
         st.write(alt.Chart(data12).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '15':
+    if option == 'BRCA' and option2 == 'Asian' and color == '16':
         st.write(data11)
         st.write(alt.Chart(data11).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '16':
+    if option == 'BRCA' and option2 == 'Asian' and color == '17':
         st.write(data10)
         st.write(alt.Chart(data10).mark_bar().encode(
             x=alt.X('Gene', sort=None),
@@ -1095,69 +1109,69 @@ with st.container():
         ))
 
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '17':
+    if option == 'BRCA' and option2 == 'Asian' and color == '18':
         st.write(data9)
         st.write(alt.Chart(data9).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '18':
+    if option == 'BRCA' and option2 == 'Asian' and color == '19':
         st.write(data8)
         st.write(alt.Chart(data8).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '19':
+    if option == 'BRCA' and option2 == 'Asian' and color == '20':
         st.write(data7)
         st.write(alt.Chart(data7).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '20':
+    if option == 'BRCA' and option2 == 'Asian' and color == '21':
         st.write(data6)
         st.write(alt.Chart(data6).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
  
-    if option == 'BRCA' and option2 == 'Asian' and color == '21':
+    if option == 'BRCA' and option2 == 'Asian' and color == '22':
         st.write(data5)
         st.write(alt.Chart(data5).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '22':
+    if option == 'BRCA' and option2 == 'Asian' and color == '23':
         st.write(data4)
         st.write(alt.Chart(data4).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '23':
+    if option == 'BRCA' and option2 == 'Asian' and color == '24':
         st.write(data3)
         st.write(alt.Chart(data3).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '24':
+    if option == 'BRCA' and option2 == 'Asian' and color == '25':
         st.write(data2)
         st.write(alt.Chart(data2).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+    if option == 'BRCA' and option2 == 'Asian' and color == '26':
         st.write(data)
         st.write(alt.Chart(data).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='pvalue',
         ))
-    if option == 'BRCA' and option2 == 'White' and color == '25':
+    if option == 'BRCA' and option2 == 'White' and color == '26':
   
         st.write(alt.Chart(datawhite).mark_bar().encode(
             x=alt.X('Gene', sort=None),
