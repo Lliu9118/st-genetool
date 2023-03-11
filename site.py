@@ -12,15 +12,7 @@ a = ary.array('i',[5])
 
 
 data = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -39,15 +31,7 @@ data = pd.DataFrame({
 "MIR520E",
 "MIR7-2",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -69,15 +53,7 @@ data = pd.DataFrame({
 
 
 data2 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -95,15 +71,7 @@ data2 = pd.DataFrame({
 "AC126323.1",
 "MIR520E",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -121,17 +89,8 @@ data2 = pd.DataFrame({
 0.022727273,
 0.022727273,],
 })
-
 data3 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -148,15 +107,7 @@ data3 = pd.DataFrame({
 "AC005631.1",
 "AC126323.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -174,15 +125,7 @@ data3 = pd.DataFrame({
 0.022727273,],
 })
 data4 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -198,15 +141,7 @@ data4 = pd.DataFrame({
 "MIR9-3",
 "AC005631.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -224,15 +159,7 @@ data4 = pd.DataFrame({
 })
 
 data5 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -247,15 +174,7 @@ data5 = pd.DataFrame({
 "AC010203.1",
 "MIR9-3",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -272,15 +191,7 @@ data5 = pd.DataFrame({
 })
 
 data6 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -294,15 +205,7 @@ data6 = pd.DataFrame({
 "MIR515-2",
 "AC010203.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -318,15 +221,7 @@ data6 = pd.DataFrame({
 })
 
 data7 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -339,15 +234,7 @@ data7 = pd.DataFrame({
 "MIR512-1",
 "MIR515-2",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -361,15 +248,7 @@ data7 = pd.DataFrame({
 0.068181818,],
 })
 data8 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -381,15 +260,7 @@ data8 = pd.DataFrame({
 "AC100757.1",
 "MIR512-1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -402,15 +273,7 @@ data8 = pd.DataFrame({
 0.068181818,],
 })
 data9 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -421,15 +284,7 @@ data9 = pd.DataFrame({
 "MIR1323",
 "AC100757.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -442,15 +297,7 @@ data9 = pd.DataFrame({
 })
 
 data10 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -460,15 +307,7 @@ data10 = pd.DataFrame({
 "AC091565.1",
 "MIR1323",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -480,15 +319,7 @@ data10 = pd.DataFrame({
 })
 
 data11 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -497,15 +328,7 @@ data11 = pd.DataFrame({
 "MIR520A",
 "AC091565.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -516,15 +339,7 @@ data11 = pd.DataFrame({
 })
 
 data12 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
@@ -532,15 +347,7 @@ data12 = pd.DataFrame({
 "MIR515-1",
 "MIR520A",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -550,30 +357,14 @@ data12 = pd.DataFrame({
 })
 
 data13 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
 "AC105339.2",
 "MIR515-1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -582,29 +373,13 @@ data13 = pd.DataFrame({
 })
 
 data14 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",
 "AC105339.2",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,
@@ -612,103 +387,39 @@ data14 = pd.DataFrame({
 })
 
 data15 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",
 "MIR519C",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,
 0.159090909,],
 })
 
 data16 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",
 "AC090825.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,
 0.181818182,],
 })
 
 data17 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",
+    'Gene': ["AC011467.1",
 "MIR526B",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,
+    'Asian_p': [0.272727273,
 0.25,],
 })
 
 data18 = pd.DataFrame({
-    'Gene': ["MIR1275",
-"MIR329-1",
-"MIR1302-3",
-"AC005631.1",
-"MIR30D",
-"AC010203.1",
-"MIR487B",
-"MIR7-2",
-"AC011467.1",]
+    'Gene': ["AC011467.1",]
   ,
-    'Asian_p': [1,
-1,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.5,
-0.272727273,],
+    'Asian_p': [0.272727273,],
 })
 
 data19 = pd.DataFrame({
@@ -977,10 +688,8 @@ with st.container():
     st.write('You selected:', option2)
     color = st.select_slider(
         'Select the amount of genes you would like to view.',
-        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26'])
+        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'])
     st.write('You have selected', color, 'gene(s).')
-    if option == 'BRCA' and option2 == 'Asian' and color == '1':
-        (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
 
     if option == 'BRCA' and option2 == 'Asian' and color == '0':
         st.write(data27)
@@ -1045,63 +754,63 @@ with st.container():
             y='Asian_p',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '9':
+    if option == 'BRCA' and option2 == 'Asian' and color == '1':
         st.write(data18)
         st.write(alt.Chart(data18).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '10':
+    if option == 'BRCA' and option2 == 'Asian' and color == '2':
         st.write(data17)
         st.write(alt.Chart(data17).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '11':
+    if option == 'BRCA' and option2 == 'Asian' and color == '3':
         st.write(data16)
         st.write(alt.Chart(data16).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '12':
+    if option == 'BRCA' and option2 == 'Asian' and color == '4':
         st.write(data15)
         st.write(alt.Chart(data15).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '13':
+    if option == 'BRCA' and option2 == 'Asian' and color == '5':
         st.write(data14)
         st.write(alt.Chart(data14).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '14':
+    if option == 'BRCA' and option2 == 'Asian' and color == '6':
         st.write(data13)
         st.write(alt.Chart(data13).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '15':
+    if option == 'BRCA' and option2 == 'Asian' and color == '7':
         st.write(data12)
         st.write(alt.Chart(data12).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '16':
+    if option == 'BRCA' and option2 == 'Asian' and color == '8':
         st.write(data11)
         st.write(alt.Chart(data11).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '17':
+    if option == 'BRCA' and option2 == 'Asian' and color == '9':
         st.write(data10)
         st.write(alt.Chart(data10).mark_bar().encode(
             x=alt.X('Gene', sort=None),
@@ -1109,7 +818,7 @@ with st.container():
         ))
 
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '18':
+    if option == 'BRCA' and option2 == 'Asian' and color == '10':
         st.write(data9)
         st.write(alt.Chart(data9).mark_bar().encode(
             x=alt.X('Gene', sort=None),
@@ -1123,49 +832,49 @@ with st.container():
             y='Asian_p',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '20':
+    if option == 'BRCA' and option2 == 'Asian' and color == '11':
         st.write(data7)
         st.write(alt.Chart(data7).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
         
-    if option == 'BRCA' and option2 == 'Asian' and color == '21':
+    if option == 'BRCA' and option2 == 'Asian' and color == '12':
         st.write(data6)
         st.write(alt.Chart(data6).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
  
-    if option == 'BRCA' and option2 == 'Asian' and color == '22':
+    if option == 'BRCA' and option2 == 'Asian' and color == '13':
         st.write(data5)
         st.write(alt.Chart(data5).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '23':
+    if option == 'BRCA' and option2 == 'Asian' and color == '14':
         st.write(data4)
         st.write(alt.Chart(data4).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '24':
+    if option == 'BRCA' and option2 == 'Asian' and color == '15':
         st.write(data3)
         st.write(alt.Chart(data3).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
     
-    if option == 'BRCA' and option2 == 'Asian' and color == '25':
+    if option == 'BRCA' and option2 == 'Asian' and color == '16':
         st.write(data2)
         st.write(alt.Chart(data2).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
         ))
 
-    if option == 'BRCA' and option2 == 'Asian' and color == '26':
+    if option == 'BRCA' and option2 == 'Asian' and color == '17':
         st.write(data)
         st.write(alt.Chart(data).mark_bar().encode(
             x=alt.X('Gene', sort=None),
