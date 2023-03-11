@@ -690,7 +690,7 @@ with st.container():
         'Select the amount of genes you would like to view.',
         options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18'])
     if option == 'LUAD':
-        options=['1', '2', '3', '4', '5', '6', '7', '8'])
+        options=['1', '2', '3', '4', '5', '6', '7', '8']
     st.write('You have selected', color, 'gene(s).')
 
     if option == 'LUAD' and option2 == 'Asian' and color == '0':
