@@ -977,7 +977,7 @@ with st.container():
     st.write('You selected:', option2)
     color = st.select_slider(
         'Select the amount of genes you would like to view.',
-        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25'])
+        options=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26'])
     st.write('You have selected', color, 'gene(s).')
     if option == 'BRCA' and option2 == 'Asian' and color == '1':
         (st.write('Link: https://docs.google.com/spreadsheets/d/1EWuYDcKM-jnjLPNm_dOJl33j4BHVE8CPD_LD47kS0dY/edit#gid=0'))
