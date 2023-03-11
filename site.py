@@ -541,7 +541,8 @@ dataw1 = pd.DataFrame({
 "MIR520E",
 "MIR124-2",
 "AL391261.1",
-		], 'White_p': [
+],
+     'White_p': [
 0.141025641,
 0.08974359,
 0.064102564,
@@ -549,7 +550,6 @@ dataw1 = pd.DataFrame({
 0.038461538,
 0.025641025,
 0.025641025,
-
 ],
 })		
 with st.container():
@@ -777,7 +777,7 @@ with st.container():
   
         st.write(alt.Chart(dataw1).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='pvalue',
+            y='White_p',
 
         )
 )
