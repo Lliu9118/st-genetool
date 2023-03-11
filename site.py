@@ -1150,3 +1150,21 @@ with st.container():
         )
 )
         st.write(dataw1)
+    if option == 'BRCA' and option2 == 'White' and color == '17':
+  
+        st.write(alt.Chart(dataw2).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw2)
+    if option == 'BRCA' and option2 == 'White' and color == '16':
+  
+        st.write(alt.Chart(dataw3).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw3)
