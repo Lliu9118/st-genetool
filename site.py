@@ -533,8 +533,7 @@ data27 = pd.DataFrame({
 })
 
 dataw1 = pd.DataFrame({
-"		
-	'Gene': [	
+     'Gene': [	
 "	AC080008.1	",
 "	MIR7-2	",
 "	AC005631.1	",
