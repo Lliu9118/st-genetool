@@ -791,7 +791,7 @@ dataw2 = pd.DataFrame({'Gene': ["	AC080008.1	",
 	0.003058104	,	
 	0.003058104	,	
 	0.003058104	,	
-		,	],})
+		],})
 
 dataw3 = pd.DataFrame({'Gene': ["	AC080008.1	",	
 "	MIR7-2	",	
@@ -918,8 +918,8 @@ dataw3 = pd.DataFrame({'Gene': ["	AC080008.1	",
 	0.003058104	,	
 	0.003058104	,	
 	0.003058104	,	
-		,	
-		,	],})
+			
+			],})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
