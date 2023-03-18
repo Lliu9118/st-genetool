@@ -4634,7 +4634,7 @@ dataw62 = pd.DataFrame({'Gene': ["	AC080008.1	",
 dataw63 = pd.DataFrame({'Gene': ["	AC080008.1	",	
 		], 'White_p': [	
 	0.141025641	,	],})
-dataw64 = pd.DataFrame({'Gene': [
+dataw64 = pd.DataFrame({'Gene': [ 
 ], 'White_p': [	
 ],})
 with st.container():
