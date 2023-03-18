@@ -4634,6 +4634,9 @@ dataw62 = pd.DataFrame({'Gene': ["	AC080008.1	",
 dataw63 = pd.DataFrame({'Gene': ["	AC080008.1	",	
 		], 'White_p': [	
 	0.141025641	,	],})
+dataw64 = pd.DataFrame({'Gene': [
+], 'White_p': [	
+],})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -4873,7 +4876,27 @@ with st.container():
         )
 )
         st.write(dataw2)
-    if option == 'BRCA' and option2 == 'White' and color == '16':
+    if option == 'BRCA' and option2 == 'White' and color == '63':
+  
+        st.write(alt.Chart(dataw1).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw1)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '62':
+  
+        st.write(alt.Chart(dataw2).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw2)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '61':
   
         st.write(alt.Chart(dataw3).mark_bar().encode(
             x=alt.X('Gene', sort=None),
@@ -4882,3 +4905,613 @@ with st.container():
         )
 )
         st.write(dataw3)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '60':
+  
+        st.write(alt.Chart(dataw4).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw4)
+
+    if option == 'BRCA' and option2 == 'White' and color == '59':
+  
+        st.write(alt.Chart(dataw5).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw5)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '58':
+  
+        st.write(alt.Chart(dataw6).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw6)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '57':
+  
+        st.write(alt.Chart(dataw7).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw7)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '56':
+  
+        st.write(alt.Chart(dataw8).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw8)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '55':
+  
+        st.write(alt.Chart(dataw9).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw9)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '54':
+  
+        st.write(alt.Chart(dataw10).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw10)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '53':
+  
+        st.write(alt.Chart(dataw11).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw11)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '52':
+  
+        st.write(alt.Chart(dataw12).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw12)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '51':
+  
+        st.write(alt.Chart(dataw13).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw13)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '50':
+  
+        st.write(alt.Chart(dataw14).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw14)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '49':
+  
+        st.write(alt.Chart(dataw15).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw15)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '48':
+  
+        st.write(alt.Chart(dataw16).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw16)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '47':
+  
+        st.write(alt.Chart(dataw17).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw17)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '46':
+  
+        st.write(alt.Chart(dataw18).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw18)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '45':
+  
+        st.write(alt.Chart(dataw19).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw19)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '44':
+  
+        st.write(alt.Chart(dataw20).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw20)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '43':
+  
+        st.write(alt.Chart(dataw21).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw21)
+
+    if option == 'BRCA' and option2 == 'White' and color == '42':
+  
+        st.write(alt.Chart(dataw22).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw22)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '41':
+  
+        st.write(alt.Chart(dataw23).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw23)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '40':
+  
+        st.write(alt.Chart(dataw24).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw24)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '39':
+  
+        st.write(alt.Chart(dataw25).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw25)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '38':
+  
+        st.write(alt.Chart(dataw26).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw26)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '37':
+  
+        st.write(alt.Chart(dataw27).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw27)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '36':
+  
+        st.write(alt.Chart(dataw28).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw28)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '35':
+  
+        st.write(alt.Chart(dataw29).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw29)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '34':
+  
+        st.write(alt.Chart(dataw30).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw30)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '33':
+  
+        st.write(alt.Chart(dataw31).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw31)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '32':
+  
+        st.write(alt.Chart(dataw32).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw32)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '31':
+  
+        st.write(alt.Chart(dataw33).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw33)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '30':
+  
+        st.write(alt.Chart(dataw34).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw34)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '29':
+  
+        st.write(alt.Chart(dataw35).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw35)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '28':
+  
+        st.write(alt.Chart(dataw36).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw36)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '27':
+  
+        st.write(alt.Chart(dataw37).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw37)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '26':
+  
+        st.write(alt.Chart(dataw38).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw38)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '25':
+  
+        st.write(alt.Chart(dataw39).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw39)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '24':
+  
+        st.write(alt.Chart(dataw40).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw40)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '23':
+  
+        st.write(alt.Chart(dataw41).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw41)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '22':
+  
+        st.write(alt.Chart(dataw42).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw42)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '21':
+  
+        st.write(alt.Chart(dataw43).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw43)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '20':
+  
+        st.write(alt.Chart(dataw44).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw44)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '19':
+  
+        st.write(alt.Chart(dataw45).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw45)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '18':
+  
+        st.write(alt.Chart(dataw46).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw46)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '17':
+  
+        st.write(alt.Chart(dataw47).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw47)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '16':
+  
+        st.write(alt.Chart(dataw48).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw48)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '15':
+  
+        st.write(alt.Chart(dataw49).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw49)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '14':
+  
+        st.write(alt.Chart(dataw50).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw50)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '13':
+  
+        st.write(alt.Chart(dataw51).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw51)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '12':
+  
+        st.write(alt.Chart(dataw52).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw52)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '11':
+  
+        st.write(alt.Chart(dataw53).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw53)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '10':
+  
+        st.write(alt.Chart(dataw54).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw54)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '9':
+  
+        st.write(alt.Chart(dataw55).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw55)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '8':
+  
+        st.write(alt.Chart(dataw56).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw56)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '7':
+  
+        st.write(alt.Chart(dataw57).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw57)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '6':
+  
+        st.write(alt.Chart(dataw58).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw58)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '5':
+  
+        st.write(alt.Chart(dataw59).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw59)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '4':
+  
+        st.write(alt.Chart(dataw60).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw60)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '3':
+  
+        st.write(alt.Chart(dataw61).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw61)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '2':
+  
+        st.write(alt.Chart(dataw62).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw62)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '1':
+  
+        st.write(alt.Chart(dataw63).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw63)
+	
+    if option == 'BRCA' and option2 == 'White' and color == '0':
+  
+        st.write(alt.Chart(dataw64).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(dataw64)
