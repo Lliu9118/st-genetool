@@ -4642,7 +4642,7 @@ datacompa = pd.DataFrame({'Gene': ["AC011467.1",],
 datacompw = pd.DataFrame({'Gene': ["AC011467.1",],
 			"White_p": [0.006116208,],})
 datacomp = pd.DataFrame({'Gene': ["AC011467.1",], 
-			 "pvalue": [1,],})
+			 "pvalue": [0.0000000002,],})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
