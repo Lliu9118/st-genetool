@@ -5518,16 +5518,16 @@ with st.container():
 	
     if option == 'BRCA' and option2 == 'Asian and white' and color == '1':
   
-        st.write(alt.Chart(data).mark_bar().encode(
+        st.write(alt.Chart(data26).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
 
         )
 )
 	
-        st.write(alt.Chart(data).mark_bar().encode(
+        st.write(alt.Chart(dataw64).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='Asian_p',
+            y='White_p',
 
         )
 )
