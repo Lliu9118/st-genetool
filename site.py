@@ -5528,5 +5528,4 @@ with st.container():
 
         )
 )
-        st.write(data)
-        st.write(dataw1)
+
