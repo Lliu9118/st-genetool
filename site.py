@@ -4638,9 +4638,9 @@ dataw64 = pd.DataFrame({'Gene': [
 ], 'White_p': [	
 ],})
 datacompa = pd.DataFrame({'Gene': ["AC011467.1",], 
-			"Asian_p": [0.272727273],})
-datacompw = pd.DataFrame({'Gene': ["AC011467.1",
-			"White_p": [0.006116208],})
+			"Asian_p": [0.272727273,],})
+datacompw = pd.DataFrame({'Gene': ["AC011467.1",],
+			"White_p": [0.006116208,],})
 datacomp = pd.DataFrame({'Gene': ["AC011467.1",], 
 			 "pvalue": [1,],})
 with st.container():
