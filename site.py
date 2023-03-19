@@ -4637,12 +4637,12 @@ dataw63 = pd.DataFrame({'Gene': ["	AC080008.1	",
 dataw64 = pd.DataFrame({'Gene': [ 
 ], 'White_p': [	
 ],})
-datacompa = pd.DataFrame({'Gene': ["AC011467.1",], 
-			"Asian_p": [0.272727273,],})
-datacompw = pd.DataFrame({'Gene': ["AC011467.1",],
-			"White_p": [0.006116208,],})
-datacomp = pd.DataFrame({'Gene': ["AC011467.1",], 
-			 "pvalue": [0.0000000002,],})
+datacompa = pd.DataFrame({'Gene': ["AC011467.1",
+				  "AC011467.1",
+				  "AC011467.1",], 
+			"Asian_p": [0.272727273,
+				   0.006116208,
+				   0.0000000002,],})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -5526,20 +5526,8 @@ with st.container():
   
         st.write(alt.Chart(datacompa).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='Asian_p',
+            y='mutationrate',
 
         )
 )
-	
-        st.write(alt.Chart(datacompw).mark_bar().encode(
-            x=alt.X('Gene', sort=None),
-            y='White_p',
 
-        )
-)
-        st.write(alt.Chart(datacomp).mark_bar().encode(
-            x=alt.X('Gene', sort=None),
-            y='pvalue',
-
-        )
-)	
