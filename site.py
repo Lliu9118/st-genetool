@@ -4640,7 +4640,7 @@ dataw64 = pd.DataFrame({'Gene': [
 datacompa = pd.DataFrame({'Gene': ["AC011467.1",
 				  "AC011467.1",
 				  "AC011467.1",], 
-			"Asian_p": [0.272727273,
+			"mutationrate": [0.272727273,
 				   0.006116208,
 				   0.0000000002,],})
 with st.container():
