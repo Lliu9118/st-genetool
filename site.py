@@ -5528,7 +5528,7 @@ with st.container():
         )
 )
 	
-        st.write(alt.Chart(dataw64).mark_bar().encode(
+        st.write(alt.Chart(dataw52).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='White_p',
 
