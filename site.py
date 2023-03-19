@@ -5521,10 +5521,14 @@ with st.container():
         st.write(alt.Chart(data).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
-		
-	st.write(alt.Chart(dataw1).mark_bar().encode(
-            x=alt.X('Gene', sort=None),
-            y='White_p',
 
         )
 )
+	
+        st.write(alt.Chart(data).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='Asian_p',
+
+        )
+)
+
