@@ -4637,6 +4637,9 @@ dataw63 = pd.DataFrame({'Gene': ["	AC080008.1	",
 dataw64 = pd.DataFrame({'Gene': [ 
 ], 'White_p': [	
 ],})
+
+datacomp = pd.DataFrame({'Gene': ["MIR4771-1"], 
+			 "pvalue": [1],})
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -5518,7 +5521,7 @@ with st.container():
 	
     if option == 'BRCA' and option2 == 'Asian and white' and color == '1':
   
-        st.write(alt.Chart(data26).mark_bar().encode(
+        st.write(alt.Chart(data21).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='Asian_p',
 
@@ -5531,4 +5534,9 @@ with st.container():
 
         )
 )
+        st.write(alt.Chart(datacomp).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='pvalue',
 
+        )
+)	
