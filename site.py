@@ -5529,5 +5529,13 @@ with st.container():
             y='mutationrate',
 
         )
+text = bars.mark_text(
+	align='left',
+	baseline='middle',
+	dx=3
+).encode(
+	text='wheat:Q'
+)
+
 )
 
