@@ -4637,9 +4637,9 @@ dataw63 = pd.DataFrame({'Gene': ["	AC080008.1	",
 dataw64 = pd.DataFrame({'Gene': [ 
 ], 'White_p': [	
 ],})
-datacompa = pd.DataFrame({'Gene': ["AC011467.1Asian",
-				  "AC011467.1White",
-				  "AC011467.1PVal",], 
+datacompa = pd.DataFrame({'Gene': [0.272727273,
+				   0.006116208,
+				   0.0000000002,], 
 			"mutationrate": [0.272727273,
 				   0.006116208,
 				   0.0000000002,],})
@@ -5523,7 +5523,7 @@ with st.container():
         st.write(dataw64)
 	
     if option == 'BRCA' and option2 == 'Asian and white' and color == '1':
-  
+  	st.write("AC011467.1")
         st.write(alt.Chart(datacompa).mark_bar().encode(
             x=alt.X('Gene', sort=None),
             y='mutationrate'
