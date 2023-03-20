@@ -5529,7 +5529,10 @@ with st.container():
             y='mutationrate'
 
         )
-text = bars.mark_text(
+text = bars.mark_text((
+    align='left',
+    baseline='middle',
+    dx=3  # Nudges text to right so it doesn't appear on top of the bar
 ).encode(
 	text='mutationrate'
 )
