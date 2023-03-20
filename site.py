@@ -5526,7 +5526,7 @@ with st.container():
   
         st.write(alt.Chart(datacompa).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='mutationrate',
+            y='mutationrate'
 
         )
 text = bars.mark_text(
