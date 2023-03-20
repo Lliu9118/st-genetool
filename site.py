@@ -5523,10 +5523,10 @@ with st.container():
         st.write(dataw64)
 	
     if option == 'BRCA' and option2 == 'Asian and white' and color == '1':
-	
-	st.write(alt.Chart(datacompa).mark_bar().encode(
+  
+        st.write(alt.Chart(datacompa).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='mutationrate'
+            y='mutationrate',
 
         )
-
+)
