@@ -5760,7 +5760,7 @@ with st.container():
   
         st.write(alt.Chart(datab1).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5770,7 +5770,7 @@ with st.container():
   
         st.write(alt.Chart(datab2).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5780,7 +5780,7 @@ with st.container():
   
         st.write(alt.Chart(datab3).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5790,7 +5790,7 @@ with st.container():
   
         st.write(alt.Chart(datab4).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5800,7 +5800,7 @@ with st.container():
   
         st.write(alt.Chart(datab5).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5810,7 +5810,7 @@ with st.container():
   
         st.write(alt.Chart(datab6).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5820,7 +5820,7 @@ with st.container():
   
         st.write(alt.Chart(datab7).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5830,7 +5830,7 @@ with st.container():
   
         st.write(alt.Chart(datab8).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5840,7 +5840,7 @@ with st.container():
   
         st.write(alt.Chart(datab9).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5850,7 +5850,7 @@ with st.container():
   
         st.write(alt.Chart(datab10).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5860,7 +5860,7 @@ with st.container():
   
         st.write(alt.Chart(datab11).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5870,7 +5870,7 @@ with st.container():
   
         st.write(alt.Chart(datab12).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5880,7 +5880,7 @@ with st.container():
   
         st.write(alt.Chart(datab13).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
@@ -5890,7 +5890,7 @@ with st.container():
   
         st.write(alt.Chart(datab14).mark_bar().encode(
             x=alt.X('Gene', sort=None),
-            y='White_p',
+            y='Black_p',
 
         )
 )
