@@ -4643,6 +4643,232 @@ datacompa = pd.DataFrame({'Gene': ["AC011467.1Asian",
 			"mutationrate": [0.272727273,
 				   0.006116208,
 				   0.0000000002,],})
+
+datab1 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+"	MIR134	",	
+"	AC080008.1	",	
+"	AL161651.1	",	
+"	AL391261.1	",	
+"	MIR379	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	
+	0.217391304	,	
+	0.043478261	,	
+	0.043478261	,	
+	0.043478261	,	
+	0.043478261	,	],})
+datab2 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+"	MIR134	",	
+"	AC080008.1	",	
+"	AL161651.1	",	
+"	AL391261.1	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	
+	0.217391304	,	
+	0.043478261	,	
+	0.043478261	,	
+	0.043478261	,	],})
+datab3 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+"	MIR134	",	
+"	AC080008.1	",	
+"	AL161651.1	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	
+	0.217391304	,	
+	0.043478261	,	
+	0.043478261	,	],})
+datab4 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+"	MIR134	",	
+"	AC080008.1	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	
+	0.217391304	,	
+	0.043478261	,	],})
+datab5 = pd.DataFrame({'Gene': ["	MIR4771-1	",
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+"	MIR134	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	
+	0.217391304	,	],})
+datab6 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+"	MIR543	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	
+	0.217391304	,	],})
+datab7 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+"	AC092017.1	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	
+	0.260869565	,	],})
+datab8 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+"	MIR1205	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	0.304347826	,	],})
+datab9 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+"	MIR1323	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	],})
+datab10 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+"	AC091565.1	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	
+	1	,	],})
+datab11 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+"	MIR494	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	
+	1	,	],})
+datab12 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+"	MIR920	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	
+	1	,	],})
+datab13 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+"	MIR587	",	
+		], 'Black_p': [	
+	1	,	
+	1	,	],})
+datab14 = pd.DataFrame({'Gene': ["	MIR4771-1	",	
+		], 'Black_p': [	
+	1	,	],})
+
 with st.container():
     st.title("The Gene Mutation Interactive Tool")
     #st.subheader("Helping to go further in studies on race and cancer")
@@ -4667,7 +4893,7 @@ with st.container():
     st.write('You selected:', option)
     option2 = st.selectbox(
         'Which race would you like to view?',
-        ('Asian', 'White', 'Asian and white',))
+        ('Asian', 'White', 'Asian and white', 'Black',))
     st.write('You selected:', option2)
     color = st.select_slider(
         'Select the amount of genes you would like to view.',
@@ -5530,3 +5756,142 @@ with st.container():
 
         )
 )
+    if option == 'BRCA' and option2 == 'Black' and color == '14':
+  
+        st.write(alt.Chart(datab1).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab1)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '13':
+  
+        st.write(alt.Chart(datab2).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab2)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '12':
+  
+        st.write(alt.Chart(datab3).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab3)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '11':
+  
+        st.write(alt.Chart(datab4).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab4)
+
+    if option == 'BRCA' and option2 == 'Black' and color == '10':
+  
+        st.write(alt.Chart(datab5).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab5)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '9':
+  
+        st.write(alt.Chart(datab6).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab6)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '8':
+  
+        st.write(alt.Chart(datab7).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab7)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '7':
+  
+        st.write(alt.Chart(datab8).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab8)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '6':
+  
+        st.write(alt.Chart(datab9).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab9)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '5':
+  
+        st.write(alt.Chart(datab10).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab10)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '4':
+  
+        st.write(alt.Chart(datab11).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab11)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '3':
+  
+        st.write(alt.Chart(datab12).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab12)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '2':
+  
+        st.write(alt.Chart(datab13).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab13)
+	
+    if option == 'BRCA' and option2 == 'Black' and color == '1':
+  
+        st.write(alt.Chart(datab14).mark_bar().encode(
+            x=alt.X('Gene', sort=None),
+            y='White_p',
+
+        )
+)
+        st.write(datab14)
